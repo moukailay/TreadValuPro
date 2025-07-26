@@ -18,7 +18,7 @@ export default function Navigation() {
                   <div className="w-8 h-8 bg-gradient-to-br from-primary to-green-600 rounded-lg flex items-center justify-center">
                     <Calculator className="text-white text-sm" size={16} />
                   </div>
-                  <span className="text-xl font-bold text-slate-900">TreadValue Pro</span>
+                  <span className="text-xl font-semibold text-slate-900 tracking-tight">TreadValue Pro</span>
                 </Link>
               </div>
             </div>
