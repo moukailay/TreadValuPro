@@ -30,16 +30,16 @@ export const vehicleTypeOptions = [
 ] as const;
 
 export const formatCurrency = (amount: number): string => {
-  return new Intl.NumberFormat('fr-FR', {
+  return new Intl.NumberFormat('fr-CA', {
     style: 'currency',
-    currency: 'EUR',
+    currency: 'CAD',
     minimumFractionDigits: 0,
     maximumFractionDigits: 0,
   }).format(amount);
 };
 
 export const formatNumber = (num: number): string => {
-  return new Intl.NumberFormat('fr-FR').format(num);
+  return new Intl.NumberFormat('fr-CA').format(num);
 };
 
 export const formatPercentage = (num: number): string => {

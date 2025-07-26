@@ -48,7 +48,7 @@ export default function Calculator() {
                   </div>
                   <div>
                     <p className="text-sm font-medium text-slate-900">Prix carburant</p>
-                    <p className="text-xs text-slate-600">Actualisez selon votre région</p>
+                    <p className="text-xs text-slate-600">Prix moyen au Québec: 1,55 $/L</p>
                   </div>
                 </div>
               </div>

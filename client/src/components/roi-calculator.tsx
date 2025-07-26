@@ -29,7 +29,7 @@ export default function ROICalculator() {
       fleetSize: 50,
       annualKilometers: 120000,
       vehicleType: "heavy_truck",
-      fuelPrice: 1.45,
+      fuelPrice: 1.55,
     },
   });
 

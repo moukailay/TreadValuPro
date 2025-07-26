@@ -128,7 +128,7 @@ export default function Clients() {
                       <FormItem>
                         <FormLabel>Nom de l'entreprise *</FormLabel>
                         <FormControl>
-                          <Input placeholder="Ex: Transport Leclerc" {...field} />
+                          <Input placeholder="Ex: Transport Bourassa" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -142,7 +142,7 @@ export default function Clients() {
                       <FormItem>
                         <FormLabel>Personne de contact</FormLabel>
                         <FormControl>
-                          <Input placeholder="Ex: Michel Leclerc" {...field} />
+                          <Input placeholder="Ex: Jean-Pierre Bourassa" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -156,7 +156,7 @@ export default function Clients() {
                       <FormItem>
                         <FormLabel>Email</FormLabel>
                         <FormControl>
-                          <Input type="email" placeholder="contact@transport-leclerc.fr" {...field} />
+                          <Input type="email" placeholder="info@transport-bourassa.ca" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -170,7 +170,7 @@ export default function Clients() {
                       <FormItem>
                         <FormLabel>Téléphone</FormLabel>
                         <FormControl>
-                          <Input placeholder="+33 1 23 45 67 89" {...field} />
+                          <Input placeholder="(514) 234-5678" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -184,7 +184,7 @@ export default function Clients() {
                       <FormItem>
                         <FormLabel>Adresse</FormLabel>
                         <FormControl>
-                          <Input placeholder="123 Rue de la Logistique, 75001 Paris" {...field} />
+                          <Input placeholder="1250 Rue Sainte-Catherine Est, Montréal, QC H2L 2H5" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>

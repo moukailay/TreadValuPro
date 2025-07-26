@@ -7,6 +7,10 @@ TreadValue Pro is a SaaS platform designed for the tire retreading industry that
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
+Location: Quebec, Montreal - All content must be localized for Quebec market.
+Currency: All prices must be displayed in CAD (Canadian dollars).
+Test addresses: Use Montreal addresses for examples and testing.
+Company examples: Use Quebec transportation companies (Bourassa, Moran, London Fountain, Camion Lussier, Belisle, etc.).
 
 ## System Architecture
 

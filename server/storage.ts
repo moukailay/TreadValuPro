@@ -58,43 +58,67 @@ export class MemStorage implements IStorage {
   }
 
   private initializeSampleData() {
-    // Sample companies
+    // Sample companies - Quebec transporters
     const company1: Company = {
       id: "1",
-      name: "Transport Leclerc",
-      email: "contact@transport-leclerc.fr",
-      contactPerson: "Michel Leclerc",
-      phone: "+33 1 23 45 67 89",
-      address: "123 Rue de la Logistique, 75001 Paris",
+      name: "Transport Bourassa",
+      email: "info@transport-bourassa.ca",
+      contactPerson: "Jean-Pierre Bourassa",
+      phone: "(514) 234-5678",
+      address: "1250 Rue Sainte-Catherine Est, Montréal, QC H2L 2H5",
       createdAt: new Date("2024-01-10"),
       updatedAt: new Date("2024-01-15"),
     };
 
     const company2: Company = {
       id: "2",
-      name: "Logistics Plus",
-      email: "info@logistics-plus.fr",
-      contactPerson: "Sophie Martin",
-      phone: "+33 1 98 76 54 32",
-      address: "456 Avenue du Transport, 69000 Lyon",
+      name: "Camion Lussier",
+      email: "service@camion-lussier.qc.ca",
+      contactPerson: "Marie-Claire Lussier",
+      phone: "(514) 567-8901",
+      address: "3456 Boulevard Saint-Laurent, Montréal, QC H2X 2T6",
       createdAt: new Date("2024-01-12"),
       updatedAt: new Date("2024-01-14"),
     };
 
     const company3: Company = {
       id: "3",
-      name: "Fleet Services SA",
-      email: "contact@fleet-services.fr",
-      contactPerson: "Pierre Dubois",
-      phone: "+33 1 11 22 33 44",
-      address: "789 Boulevard de la Flotte, 13000 Marseille",
+      name: "Transport Moran",
+      email: "admin@moran-transport.ca",
+      contactPerson: "François Moran",
+      phone: "(514) 890-1234",
+      address: "5678 Avenue Papineau, Montréal, QC H2H 1V4",
       createdAt: new Date("2024-01-11"),
       updatedAt: new Date("2024-01-13"),
+    };
+
+    const company4: Company = {
+      id: "4",
+      name: "London Fountain Transport",
+      email: "contact@londonfountain.qc.ca",
+      contactPerson: "Robert London",
+      phone: "(514) 345-6789",
+      address: "2100 Rue Notre-Dame Ouest, Montréal, QC H3J 0C6",
+      createdAt: new Date("2024-03-12"),
+      updatedAt: new Date("2024-03-12"),
+    };
+
+    const company5: Company = {
+      id: "5",
+      name: "Transport Belisle",
+      email: "info@belisle-transport.ca",
+      contactPerson: "Sylvie Belisle",
+      phone: "(514) 678-9012",
+      address: "4321 Boulevard Pie-IX, Montréal, QC H1X 2B3",
+      createdAt: new Date("2024-03-20"),
+      updatedAt: new Date("2024-03-20"),
     };
 
     this.companies.set("1", company1);
     this.companies.set("2", company2);
     this.companies.set("3", company3);
+    this.companies.set("4", company4);
+    this.companies.set("5", company5);
 
     // Sample proposals
     const proposal1: Proposal = {
@@ -103,7 +127,7 @@ export class MemStorage implements IStorage {
       fleetSize: 87,
       annualKilometers: 120000,
       vehicleType: "heavy_truck",
-      fuelPrice: "1.45",
+      fuelPrice: "1.55",
       calculatedROI: "312.00",
       annualSavings: "156800.00",
       fiveYearSavings: "784000.00",
@@ -122,7 +146,7 @@ export class MemStorage implements IStorage {
       fleetSize: 134,
       annualKilometers: 150000,
       vehicleType: "heavy_truck",
-      fuelPrice: "1.42",
+      fuelPrice: "1.52",
       calculatedROI: "298.00",
       annualSavings: "287400.00",
       fiveYearSavings: "1437000.00",
@@ -141,7 +165,7 @@ export class MemStorage implements IStorage {
       fleetSize: 42,
       annualKilometers: 80000,
       vehicleType: "medium_truck",
-      fuelPrice: "1.48",
+      fuelPrice: "1.58",
       calculatedROI: "276.00",
       annualSavings: "89200.00",
       fiveYearSavings: "446000.00",
